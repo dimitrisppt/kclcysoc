@@ -74,9 +74,10 @@ img::-moz-selection{
     background:0 0
 }
 #mainNav{
-    background-color:#212529
+    background-color: black;
 }
 #mainNav .navbar-toggler{
+  background-color: black;
     font-size:12px;
     right:0;
     padding:13px;
@@ -84,14 +85,14 @@ img::-moz-selection{
     color:#fff;
     border:0;
     background-color:#EC2E24;
-    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+    font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif
 }
 #mainNav .navbar-brand{
     color:#EC2E24;
-    font-family:'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive
+    font-family:'Montserrat','Helvetica Neue',Helvetica,Arial,cursive
 }
 #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
-    color:#bc241c
+    color:#bc241c;
 }
 #mainNav .navbar-nav .nav-item .nav-link{
     font-size:90%;
@@ -106,13 +107,13 @@ img::-moz-selection{
 }
 @media (min-width:992px){
     #mainNav{
-        padding-top:25px;
-        padding-bottom:25px;
+        padding-top:5px;
+        padding-bottom:5px;
         -webkit-transition:padding-top .3s,padding-bottom .3s;
         -moz-transition:padding-top .3s,padding-bottom .3s;
         transition:padding-top .3s,padding-bottom .3s;
         border:none;
-        background-color:transparent
+        background-color: #212529;
     }
     #mainNav .navbar-brand{
         font-size:1.75em;
