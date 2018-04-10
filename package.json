@@ -1,7 +1,7 @@
 {
     "title": "KCL Cypriot Society",
     "name": "kcl-cy-soc",
-    "version": "4.0.0",
+    "version": "0.0.1",
     "description": "King's College London Cypriot Society",
     "keywords": [
         "css",
@@ -11,10 +11,15 @@
         "theme",
         "template"
     ],
+    "homepage": "https://startbootstrap.com/template-overviews/agency",
+    "bugs": {
+        "url": "https://github.com/dimitrisppt/kclcysoc/issues",
+        "email": "feedback@kclcysoc.com"
+    },
     "author": "CYSOC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dimitrisppt/kclcysoc"
+        "url": "https://github.com/dimitrisppt/kclcysoc.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
@@ -30,5 +35,8 @@
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
         "gulp-uglify": "3.0.0"
+    },"engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
     }
 }
