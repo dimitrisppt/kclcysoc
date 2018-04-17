@@ -23,8 +23,21 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5CSQ4HZ');</script>
+    <!-- End Google Tag Manager -->
+
+
+
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/17d3a1e601aa572d60c7d710f/0ab39df9faec026761ca8fd30.js");</script>
@@ -32,11 +45,15 @@
   </head>
 
   <body id="page-top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CSQ4HZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">KCL CySoc</a>
+        <a class="navbar-brand" href="#page-top">King's College London<br>Cypriot Society</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -377,8 +394,8 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/president.jpg" alt="">
-              <h4>Yiannis Xenophontos</h4>
+              <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img class="mx-auto rounded-circle" src="img/team/president.jpg" alt="">
+              <h4>Yiannis Xenophontos</h4><style>h4{color: black}</style></a>
               <p class="text-muted">President</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
@@ -575,6 +592,39 @@
     </footer>
 
     <!-- Portfolio Modals -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                   <h4 class="modal-title" id="myModalLabel">More about Yiannis</h4>
+                   </div>
+               <div class="modal-body">
+                   <center>
+                   <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                   <h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+                   <span><strong>Skills: </strong></span>
+                       <span class="label label-warning">HTML5/CSS</span>
+                       <span class="label label-info">Adobe CS 5.5</span>
+                       <span class="label label-info">Microsoft Office</span>
+                       <span class="label label-success">Windows XP, Vista, 7</span>
+                   </center>
+                   <hr>
+                   <center>
+                   <p class="text-left"><strong>Bio: </strong><br>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                   <br>
+                   </center>
+               </div>
+               <div class="modal-footer">
+                   <center>
+                   <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                   </center>
+               </div>
+           </div>
+       </div>
+   </div>
 
     <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
